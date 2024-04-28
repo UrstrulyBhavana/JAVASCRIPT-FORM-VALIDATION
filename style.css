@@ -1,0 +1,75 @@
+body
+{
+    margin: 0px;
+    background-color: gray;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.formcontainer
+{
+    width: 600px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+input
+{
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+label
+{
+    margin-left: 20px; 
+    margin-bottom: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.hesitate
+{
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 15px;
+}
+
+#register
+{
+    width: 90%;
+    font-size: 30px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 15px;
+}
+
+input:valid
+{
+    border-color: green;
+}
+
+input:invalid
+{
+    border-color: red;
+}
